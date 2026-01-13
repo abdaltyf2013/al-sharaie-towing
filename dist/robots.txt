@@ -1,0 +1,47 @@
+# سطحة الشرايع - Satha Alsharae
+# خدمة نقل سيارات في مكة المكرمة
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://satha-alsharae.lovable.app/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Block common bot paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+Allow: /sitemap.xml
+
+# Block specific bots that waste bandwidth
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Allow social media bots
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
