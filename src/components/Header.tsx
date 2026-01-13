@@ -11,7 +11,9 @@ const Header = () => {
   const navLinks = [
     { href: "#home", label: "الرئيسية" },
     { href: "#services", label: "خدماتنا" },
+    { href: "#testimonials", label: "آراء العملاء" },
     { href: "#about", label: "من نحن" },
+    { href: "#map", label: "الموقع" },
     { href: "#contact", label: "تواصل معنا" },
   ];
 
