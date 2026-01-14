@@ -13,6 +13,7 @@ const Header = () => {
     { href: "#services", label: "خدماتنا" },
     { href: "#testimonials", label: "آراء العملاء" },
     { href: "#about", label: "من نحن" },
+    { href: "#gallery", label: "معرض الصور" },
     { href: "#map", label: "الموقع" },
     { href: "#contact", label: "تواصل معنا" },
   ];
